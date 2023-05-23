@@ -2,7 +2,10 @@
 
 I created a small GUI tool to help with applications and games that do not allow to set the desired resolution or refresh rate in their settings. I had to use the small command-line utility [NirCmd](https://www.nirsoft.net/utils/nircmd.html) to implement the main functions. Its license allows you to distribute and use it in your projects for free.
 
-![smr_screenshot](https://i.imgur.com/z2EEJhS.png)
+<br>
+<p align="center">
+  <img src="https://i.imgur.com/z2EEJhS.png" alt="creenshot">
+</p>
 
 ## How to install and use
 
@@ -19,7 +22,7 @@ pip install pywin32
 
 You just choose the path to the application, the desired resolution and refresh rate you want for the application. And just below that you choose which settings you want to go back to when you close the application (by default both lines are your current desktop settings). After clicking on the `Save and create shortcut` button a shortcut will appear on the desktop, which, when launched, will set all the parameters that you have set for the application, as well as launch the application itself. After closing the application, all the settings will revert to the ones you specified under `Your native resolution`.
 
-> *Also in the settings there is such a parameter as Bits Per Pixel. If you don't understand what this is, you probably don't need this setting. Just leave the default setting. For most new monitors this value will be 32 bits.*
+ *Also in the settings there is such a parameter as Bits Per Pixel. If you don't understand what this is, you probably don't need this setting. Just leave the default setting. For most new monitors this value will be 32 bits.*
 
 ## When would this be useful?
 
