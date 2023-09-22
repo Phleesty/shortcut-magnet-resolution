@@ -1,4 +1,4 @@
-# Shortcuts Magnet Resolution (for Windows)
+# Shortcut Magnet Resolution (for Windows)
 
 I created a small GUI tool to help with applications and games that do not allow to set the desired resolution or refresh rate in their settings. I had to use the small command-line utility [NirCmd](https://www.nirsoft.net/utils/nircmd.html) to implement the main functions. Its license allows you to distribute and use it in your projects for free.
 
@@ -9,7 +9,7 @@ I created a small GUI tool to help with applications and games that do not allow
 
 ## How to install and use
 
-You can simply download one of the two files `shortcuts-magnet-res-EN.exe` with the English interface or `shortcuts-magnet-res-RU.exe` with the Russian interface from [the release page](https://github.com/phleesty/shortcuts-magnet-resolution/releases). Everything will work without any additional configuration.
+You can simply download one of the two files `shortcuts-magnet-res-EN.exe` with the English interface or `shortcuts-magnet-res-RU.exe` with the Russian interface from [the release page](https://github.com/phleesty/shortcut-magnet-resolution/releases). Everything will work without any additional configuration.
 
 Or you can use python. To do this, you need to install dependencies and put nircmd.exe next to shortcuts-magnet-resolution.py
 
